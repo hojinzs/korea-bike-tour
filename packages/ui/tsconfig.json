@@ -1,0 +1,13 @@
+{
+  "extends": "@korea-bike-tour/typescript-config/base.json",
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "jsx": "react-jsx",
+    "lib": ["ES2017", "DOM"],
+    "declaration": true,
+    "noEmit": true
+  },
+  "include": ["src"]
+}
