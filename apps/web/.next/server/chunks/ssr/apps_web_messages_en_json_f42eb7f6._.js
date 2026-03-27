@@ -1,0 +1,5 @@
+module.exports = [
+"[project]/apps/web/messages/en.json (json)", ((__turbopack_context__) => {
+
+__turbopack_context__.v(JSON.parse("{\"home\":{\"eyebrow\":\"Cycling Korea\",\"description\":\"Discover Korea's legendary bike routes — from the Four Rivers Trail to coastal roads. Everything a foreign cyclist needs for the perfect Korean adventure.\",\"cta\":{\"explore\":\"Explore Routes\",\"learnMore\":\"Learn More\"},\"features\":{\"routes\":{\"title\":\"Curated Routes\",\"desc\":\"Detailed guides for Korea's most scenic cycling paths, from beginner-friendly trails to challenging mountain passes.\"},\"camping\":{\"title\":\"Camping & Stays\",\"desc\":\"Find certified bike campsites, guesthouses, and hotels along every major route across the country.\"},\"multilingual\":{\"title\":\"Multilingual\",\"desc\":\"Available in English, Korean, Japanese, and Chinese — so every cyclist feels at home on Korean roads.\"}}}}"));}),
+];
