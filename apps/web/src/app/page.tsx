@@ -20,15 +20,17 @@ export default function HomePage() {
       <section
         className="relative flex min-h-[88vh] flex-col justify-end pb-20 pl-8 pr-8 md:pl-20"
         style={{
-          background: "linear-gradient(135deg, #163328 0%, #2d4a3e 60%, #3a5c4f 100%)",
+          backgroundImage: "url('https://images.unsplash.com/photo-1541625602330-2277a4c46182?w=1920&q=80&fit=crop')",
+          backgroundSize: "cover",
+          backgroundPosition: "center 40%",
         }}
       >
-        {/* Subtle texture layer */}
+        {/* Dark green gradient overlay */}
         <div
           className="pointer-events-none absolute inset-0"
           style={{
             background:
-              "radial-gradient(ellipse 80% 60% at 70% 40%, rgba(45,74,62,0.4) 0%, transparent 70%)",
+              "linear-gradient(to top, #163328 0%, rgba(22,51,40,0.85) 40%, rgba(22,51,40,0.4) 70%, rgba(22,51,40,0.2) 100%)",
           }}
         />
 
